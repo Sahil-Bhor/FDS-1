@@ -57,6 +57,7 @@ def either(x,y):
 
 print("\n")
 if __name__ == '__main__':
+    
     print("Students who participated in cricket and badminton:",union(a,b))
     print("\nStudents who participated either cricket or badminton but not both:",either(a,b))
     print("\nStudents who participated in neither cricket nor football:",neither_nor(b))
